@@ -1,0 +1,326 @@
+:root {
+    --poOrange: #E58323;
+    --poDarkOrange: #C36000;
+    --poDarkerOrange: #ad5700;
+    --poDarkGrey: #313131;
+	--poCardTitleBar: #2f353A;
+    --poLightGrey: #979797;
+    --poWhiteText: #FFFFFF;
+    --poOrangeText: #F59713;
+    --poAppBGColor: #F0F3FS;
+    --poDarkText: #23282C;
+	--greenCheck: #349745;
+	--redCheck: #c20000;
+    --btnBgColor: #c4c4c4;
+    --btnTextColor: #262626;
+    --poLighterGreyColor: #d0d0d0;
+}
+
+.scanButton {
+    text-decoration: none;
+    color: white !important;
+    width: 100%;
+}
+
+.canvasPH {
+    margin: auto;
+    /* width: calc(100% - 20px); */
+    width: 100%;
+    /* max-width: 400px; */ 
+}
+
+#qr-canvas {
+    margin: auto; 
+    /* width: calc(100% - 20px); */
+    width: 100%;
+    /* max-width: 400px; */
+  }
+
+.scanCanvas {
+    margin: auto;
+    /* width: calc(100% - 20px); */
+    width: 100%;
+    /* max-width: 400px; */ 
+}  
+
+#container {
+    text-align: center;
+    margin: 0;
+}
+
+#btn-scan-qr {
+    cursor: pointer;
+}
+
+#qr-result {
+    font-size: 1.2rem;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 700px;
+    background-color: FFFFFF;
+}
+
+
+
+/* J TRON ---------------------------------*/
+
+.jumbotron {
+    border-radius: 0px;
+    margin: 0px;
+}
+
+.page-title {
+	font-size: 12pt;
+    font-weight: 600;
+    
+}
+
+/* LOGIN CARD ----------------------------*/
+.loginCard {
+    max-width: 24rem;
+    background-color: var(--poAppBGColor);
+	border: none;
+	margin-top: 1.5rem;
+}
+
+.login-card-body {
+    padding: 0;
+}
+
+.btn-secondary {
+	font-size: 10pt;
+	min-width: 10rem;
+}
+
+.btn-secondary:hover {
+	background-color: var(--poDarkOrange);
+    color: var(--poWhiteText);
+}
+
+.btn-secondary:active {
+	background-color: var(--poDarkerOrange) !important;
+    border-color: var(--poDarkOrange);
+    color: var(--poWhiteText) !important;   
+}
+
+.btn-secondary {
+    color: var(--poWhiteText);
+    background-color: var(--poDarkOrange);
+}
+
+/* ISOLATION CARD CSS -------------------------*/
+
+.isocd-jtron {
+	padding: 0.75rem 1.75rem 0rem 1.75rem;
+}
+
+.isolTitleHR {
+	margin-bottom: 0;
+}
+
+.isocd-divider {
+	background-color: #4A4A4A;
+    margin-bottom: 8px;
+}
+
+.card-title {
+    margin-bottom: 0;
+}
+
+.card-header {
+    color: var(--poWhiteText);
+    background-color: var(--poCardTitleBar);
+}
+
+.isocd-btn {
+    margin-top: 6px;
+}
+
+.lastUpdateP {
+    padding-top: 10px;
+}
+
+.editCard {
+    padding-bottom: 10px;
+}
+/* ISOLATION CARD LIST AND ROWS ------------------------*/
+
+.isocd-ul {
+	padding: 0;
+}
+
+.isocd-li {
+	list-style-type: none;	
+	padding-top: 3px;
+}
+
+.isocd-fa-col1{
+    padding: 0;
+    padding-top: 4px;
+    text-align: center;
+    
+}
+
+.isocd-grey {
+	color: rgb(160, 160, 160);
+}
+
+isocd-fa-ltgrey {
+    color: #d0d0d0;
+}
+
+.isocd-value-p {
+	margin: 0;
+}
+
+.isocd-red {
+	color: var(--redCheck);
+}
+
+.addIso-card {
+    margin-top: 1.5rem;
+    padding: 0;
+}
+
+.isoCard-card {
+    margin-top: 1.5rem;
+    padding: 0;
+}
+
+.addIso-btn {
+    width: 100%; 
+    /* background-color: #696969; */
+    background-color: var(--poDarkerOrange);
+}
+
+
+
+.addIso-sources-btn {
+    margin-bottom: 0.8rem;
+    font-size: 12pt;
+    background-color: lightgray;
+    color: black;
+}
+
+.manual-entryForm {
+    width: 85% !important;
+}
+.manual-entryButton{
+    height: 35px;
+    width: 15%;
+    font-size: 1.2rem;
+    background-color: white;
+} 
+.sourceCard {
+    min-width: 20rem;
+    max-width: 20rem;
+}
+
+.lock-dark {
+    color: var(--poDarkGrey);
+}
+
+.lock-red {
+    color: var(--redCheck);
+}
+
+html:not([dir="rtl"]) .sidebar-show.sidebar-fixed .main, html:not([dir="rtl"]) .sidebar-show.sidebar-fixed .app-footer {
+    margin-left: 0;
+}
+
+.devcd-divider {
+	background-color: #c2c2c2;
+    margin: 0;
+}
+
+.form-control:focus {
+    border-color: var(--poDarkOrange);  
+    box-shadow: none; 
+    -webkit-box-shadow: none;
+} 
+.has-error .form-control:focus{
+    box-shadow: none; 
+    -webkit-box-shadow: none;
+}
+.btn-secondary:focus {
+    border-color: var(--poDarkOrange);  
+    box-shadow: none; 
+    -webkit-box-shadow: none;
+} 
+
+.navbar-toggler:focus {
+    border-color: var(--poDarkOrange) !important;  
+    box-shadow: none !important; 
+    -webkit-box-shadow: none;
+}
+
+.navbar-toggler:focus {
+    outline: none;
+    border: none !important;
+    /* box-shadow: none !important; 
+    -webkit-box-shadow: none !important; */
+}
+
+.modalTitleFA {
+    font-size: 1.9em;
+    padding-right: 10px;
+}
+
+.modalFARed {
+    color: var(--redCheck);
+}
+
+.modalFAYel {
+    color: var(--redCheck);
+}
+
+.modalFARed {
+    color: var(--redCheck);
+}
+
+.savIso-btn {
+    width: 100%; 
+    background-color: var(--poCardTitleBar);
+}
+
+.steamIText {
+    color: darkred;
+}
+
+.waterIText {
+    color: darkred;
+}
+
+.cdaIText {
+    color: darkred;
+}
+
+.elecIText {
+    color: darkred;
+}
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+/* anything over 480px the following styles will apply*/
+@media (min-width: 480px) { 
+
+    .addIso-card {
+        min-width: 20rem;
+        max-width: 20rem;
+        margin-top: 1.5rem;
+        padding: 0;
+    }
+    .isoCard-card {
+        min-width: 20rem;
+        max-width: 20rem;
+        margin-top: 1.6rem;
+        padding: 0;
+    }
+}
+
+
+
+
+
+
+

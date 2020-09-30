@@ -1,0 +1,1 @@
+</main></div><footer class="app-footer"><div><span>LOCNET&#160;v1.0&#160;&copy;&#160;2020&#160;STU51272</span></div></footer><script src="js/jquery-3.3.1.min.js"></script><script src="js/bootstrap.min.js"></script><script src="js/coreui.min.js"></script><script src="js/locnetjs.min.js"></script></body></html>
